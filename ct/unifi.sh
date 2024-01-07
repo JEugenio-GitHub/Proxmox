@@ -37,7 +37,7 @@ function default_settings() {
   CORE_COUNT="$var_cpu"
   RAM_SIZE="$var_ram"
   BRG="vmbr1"
-  NET="192.168.1.201"
+  NET="192.168.1.201/24"
   GATE="192.168.1.1"
   DISABLEIP6="no"
   MTU=""
